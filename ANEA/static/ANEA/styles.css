@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: row;
     margin-left: 10%;
-    margin-top: -1.3%;
+    margin-top: -1.8%;
     
 }
 .info_dentro{
@@ -23,11 +23,11 @@
 }
 
 .imagenlibro{
-    height: 80px; /* Mantener la altura al 30% del contenedor */
+    height: 120px; /* Mantener la altura al 30% del contenedor */
     width: auto;
     text-align: start;
-    margin-top: -95px;
-    margin-left: 50px;
+    margin-top: -830px;
+    margin-left: 60px;
 }
 
 
