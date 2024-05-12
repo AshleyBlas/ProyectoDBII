@@ -1,0 +1,151 @@
+{% extends "ANEA/layout.html" %}
+
+
+
+
+
+{% block body %}
+
+<div class="info">
+  <div class="info_dentro">
+    <h2>¡Bienvenido a ANEA Class para niños de primaria!</h2>
+    <p>En ANEA, estamos comprometidos con la revolución educativa. Nuestra plataforma
+      combina la pasión por la enseñanza con la innovación tecnológica para brindar una experiencia de aprendizaje
+      única y efectiva para estudiantes de primaria.</p>
+    <button onclick="leerContenido() " class=" btn btn-danger "">Leer contenido</button>
+   
+   
+    
+  </div>
+  <img src="https://scontent.fmga7-1.fna.fbcdn.net/v/t39.30808-6/243195562_248967673909831_324851863451469378_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=0z-q6ZGOTUoQ7kNvgFrnTuA&_nc_ht=scontent.fmga7-1.fna&oh=00_AYC4RqLbm5C251lqcAroDx23ro0Zf5lXZJIWhcNo00qXaw&oe=6645DE71">
+
+</div>
+ 
+<img class="imagenlibro"src="https://img.freepik.com/vector-gratis/ninos-dibujados-mano-regreso-escuela_52683-41026.jpg?t=st=1715467013~exp=1715470613~hmac=c5520e7fc90395512c48c3524a3d459231d39b065f80e6c6ce26c75ce888ce10&w=900">
+    
+<br><br><br><br>
+<h2 style="margin-left: 10%;">Nuestra Comunidad</h2>
+<div class="info">
+
+  <div class="info_dentro">
+    
+    <!-- Tabs navs -->
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Vista</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Mision</button>
+      </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+      <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+        <p style="color: rgb(255, 115, 0);">En nuestra Aula Virtual, Cada Estudiante Descubre, Interactua Y Crece Con Otros</p>
+        <div class="info3">
+          <img src="https://cdn.icon-icons.com/icons2/290/PNG/512/computer_30842.png" alt="computadora" style="height: 50px; width: auto; margin-right: 10px;">
+          <div class="info4">
+            <h5 style="color: red;">Explora Nuestras Clases</h5>
+            <p>Decsubre una amplia variedad de materias organizadas por categorias para sastifacer tus intereses y necesidades de aprendizaje</p>
+          </div>
+        </div>
+        <div class="info3">
+          <img src="https://static.vecteezy.com/system/resources/previews/005/075/526/non_2x/video-icon-in-trendy-long-shadow-style-isolated-on-soft-blue-background-free-vector.jpg" alt="video" style="height: 55px; width: auto; margin-right: 10px;">
+          <div class="info4">
+            <h5 style="color: red;">Contenido Educativo Completo</h5>
+            <p>Accede a lecciones, videos y actividades educativas diseñadas para abordar demanera integral cada tema y promover un aprendizaje efectivo.</p>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+        <p>En nuestra Aula Virtual, Cada Estudiante Descubre, Interactua Y Crece Con Otros</p>
+        <div>
+          <img src="" alt="">
+          <div>
+            <h5></h5>
+            <p></p>
+          </div>
+        </div>
+      </div>
+   </div>
+
+  </div>
+  
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://st2.depositphotos.com/3508093/11861/i/450/depositphotos_118615404-stock-photo-teacher-helping-male-elementary-pupil.jpg" class="d-block w-100" alt="niño1">
+        </div>
+        <div class="carousel-item">
+          <img src="https://static9.depositphotos.com/1594308/1133/i/450/depositphotos_11334937-stock-photo-computer-genii.jpg" class="d-block w-100" alt="niños2">
+        </div>
+        <div class="carousel-item">
+          <img src="https://static5.depositphotos.com/1037987/475/i/450/depositphotos_4759720-stock-photo-kindergarten-children-learning-how-use.jpg" class="d-block w-100" alt="niños3">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+ 
+  
+
+</div>
+<div class="info">
+  <div class="info_dentro">
+    <h2>Que Ofrecemos</h2>
+    <ul>
+      <li>Contenido Educativo Interactivo: Lecciones, videos, juegos y más, diseñados específicamente
+        para niños de primaria en áreas clave como matemáticas, lengua, ciencias sociales y convivencia.</li>
+      <li>Herramientas de Seguimiento y Evaluación: Permite a los padres y profesores realizar un
+        seguimiento del progreso académico de los estudiantes y ofrecer retroalimentación personalizada.</li>
+      <li>Experiencia de Aprendizaje Personalizada: Adaptamos el contenido y las actividades según el
+        nivel de cada estudiante, para garantizar un aprendizaje efectivo y estimulante.</li>
+    </ul>
+  </div>
+</div>
+<h1>¿Como Funciona?</h1>
+
+<div class="info2">
+  <div class="card" style="width: 18rem;">
+    <div class="card-body">
+      <h5 class="card-title">1)Registrate</h5>
+      <p class="card-text">Crea una cuenta gratuita para acceder a nuestra plataforma</p>
+
+    </div>
+  </div>
+  <br>
+  <div class="card" style="width: 18rem;">
+    <div class="card-body">
+      <h5 class="card-title">2)Explora</h5>
+      <p class="card-text">Navega por nuestro contenido educativo y elige las lecciones y actividades
+        que más te interesen.</p>
+
+    </div>
+  </div>
+  <br>
+  <div class="card" style="width: 18rem;">
+    <div class="card-body">
+      <h5 class="card-title">3)Aprende y Practica</h5>
+      <p class="card-text">Sumérgete en un mundo de aprendizaje interactivo, donde podrás aprender
+        y practicar de manera divertida y efectiva.</p>
+
+
+    </div>
+  </div>
+</div>
+
+
+<script>
+  function leerContenido() {
+    var contenido = document.body.innerText;
+    var synth = window.speechSynthesis;
+    var utterance = new SpeechSynthesisUtterance(contenido);
+    synth.speak(utterance);
+  }
+</script>
+{% endblock %}
